@@ -1,6 +1,10 @@
 :root {
   --primary-font: "Jaro", sans-serif;
   --secondary-font: "Quicksand", sans-serif;
+  --primary-color: #f4991a;
+  --secondary-color: #f2ead3;
+  --tertiary-color: #f9f5f0;
+  --background-color: #321313;
 }
 
 h1 {
@@ -11,6 +15,49 @@ p {
   font-family: var(--secondary-font);
 }
 body {
-  background-color: orange;
   text-align: center;
+}
+
+.head-of-homepage {
+  background-color: var(--background-color);
+  color: var(--tertiary-color);
+  height: 700px;
+}
+.head-of-homepage h1 {
+  color: var(--primary-color);
+  font-size: 250px;
+  line-height: 0.8;
+  padding-bottom: 30px;
+}
+.head-of-homepage h2 {
+  color: var(--secondary-color);
+  font-size: 80px;
+}
+
+.head-of-homepage p {
+  color: var(--tertiary-color);
+  font-size: 18px;
+}
+
+.head-of-homepage .cat-code {
+  padding-top: 40px;
+}
+
+.contact-button {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  border: solid 5px var(--tertiary-color);
+  border-radius: 20px;
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 40px;
+  display: block;
+  width: 400px;
+  margin: 30px auto;
+}
+.contact-button:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: solid 5px var(--tertiary-color);
 }
