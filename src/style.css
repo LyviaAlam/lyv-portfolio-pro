@@ -1,0 +1,16 @@
+:root {
+  --primary-font: "Jaro", sans-serif;
+  --secondary-font: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-family: var(--primary-font);
+}
+h2,
+p {
+  font-family: var(--secondary-font);
+}
+body {
+  background-color: orange;
+  text-align: center;
+}
