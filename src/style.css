@@ -33,6 +33,9 @@ footer a:hover {
   text-decoration: underline;
   font-weight: bold;
 }
+footer a .social-icons {
+  color: var(--secondary-color);
+}
 
 .head-of-homepage h1 {
   color: var(--primary-color);
@@ -114,8 +117,11 @@ footer a:hover {
     margin-bottom: 25px;
     font-size: 10px;
   }
+  .head-of-homepage {
+    padding: 0 20px;
+  }
   .head-of-homepage h1 {
-    font-size: 90px;
+    font-size: 85px;
     line-height: 0.7;
     padding-bottom: 30px;
   }
