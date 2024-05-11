@@ -1,10 +1,10 @@
 :root {
   --primary-font: "Jaro", sans-serif;
   --secondary-font: "Quicksand", sans-serif;
-  --primary-color: #f4991a;
-  --secondary-color: #f2ead3;
-  --tertiary-color: #f9f5f0;
-  --background-color: #321313;
+  --primary-color: #f8b500;
+  --secondary-color: #f7f7f7;
+  --tertiary-color: #5c636e;
+  --background-color: #393e46;
 }
 
 h1 {
@@ -13,21 +13,33 @@ h1 {
 h2,
 p {
   font-family: var(--secondary-font);
+  color: var(--background-color);
 }
 body {
   text-align: center;
+  background-color: var(--background-color);
 }
 
-.head-of-homepage {
-  background-color: var(--background-color);
-  color: var(--tertiary-color);
-  height: 700px;
+footer {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  margin-bottom: 40px;
 }
+footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+footer a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .head-of-homepage h1 {
   color: var(--primary-color);
-  font-size: 250px;
-  line-height: 0.8;
-  padding-bottom: 30px;
+  font-size: 200px;
+  line-height: 0.7;
+  padding-top: 10px;
+  padding-bottom: 70px;
 }
 .head-of-homepage h2 {
   color: var(--secondary-color);
@@ -35,29 +47,64 @@ body {
 }
 
 .head-of-homepage p {
-  color: var(--tertiary-color);
-  font-size: 18px;
+  color: var(--secondary-color);
+  font-size: 20px;
 }
 
 .head-of-homepage .cat-code {
-  padding-top: 40px;
+  padding-top: 50px;
+  font-size: 30px;
 }
 
 .contact-button {
-  background-color: var(--tertiary-color);
-  color: var(--primary-color);
-  border: solid 5px var(--tertiary-color);
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  border: solid 5px var(--primary-color);
   border-radius: 20px;
   font-family: var(--secondary-font);
   font-size: 20px;
   font-weight: 700;
-  padding: 20px 40px;
+  padding: 15px 35px;
   display: block;
   width: 400px;
-  margin: 30px auto;
+  margin: 50px auto 75px;
 }
 .contact-button:hover {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
-  border: solid 5px var(--tertiary-color);
+  color: var(--background-color);
+  border: solid 5px var(--secondary-color);
+}
+
+.body-of-work {
+  background-color: var(--primary-color);
+  border: solid 5px var(--secondary-color);
+  padding: 50px 50px 30px 50px;
+  border-radius: 20px;
+  margin: 50px auto 30px auto;
+}
+.body-of-work h2 {
+  color: var(--background-color);
+  font-size: 40px;
+}
+.body-of-work a {
+  background-color: var(--secondary-color);
+  border: solid 3px var(--tertiary-color);
+  border-radius: 15px;
+
+  color: var(--tertiary-color);
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 600;
+
+  padding: 10px 20px;
+  display: block;
+  max-width: 250px;
+  margin: 30px auto;
+}
+.body-of-work a:hover {
+  background-color: var(--secondary-color);
+  border: solid 3px var(--background-color);
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 20px;
 }
