@@ -108,3 +108,58 @@ footer a:hover {
   font-weight: 700;
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  footer {
+    margin-bottom: 25px;
+    font-size: 10px;
+  }
+  .head-of-homepage h1 {
+    font-size: 90px;
+    line-height: 0.7;
+    padding-bottom: 30px;
+  }
+  .head-of-homepage h2 {
+    font-size: 40px;
+  }
+
+  .head-of-homepage p {
+    font-size: 15px;
+  }
+
+  .head-of-homepage .cat-code {
+    padding-top: 30px;
+    font-size: 20px;
+  }
+
+  .contact-button {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 20px;
+    width: 200px;
+    margin: 30px auto 40px;
+  }
+  .body-of-work {
+    display: block;
+    margin: 30px auto;
+    padding: 30px 30px 10px 30px;
+    border-radius: 20px;
+  }
+  .body-of-work h2 {
+    font-size: 25px;
+  }
+  .body-of-work p {
+    font-size: 12px;
+  }
+  .body-of-work a {
+    border: solid 1.5px var(--tertiary-color);
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .body-of-work a:hover {
+    border: solid 1.5px var(--tertiary-color);
+    font-weight: 700;
+    font-size: 12px;
+  }
+}
