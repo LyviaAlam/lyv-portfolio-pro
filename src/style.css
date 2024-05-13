@@ -11,6 +11,7 @@ h1 {
   font-family: var(--primary-font);
 }
 h2,
+h3,
 p {
   font-family: var(--secondary-font);
   color: var(--background-color);
@@ -37,6 +38,7 @@ footer a .social-icons {
   color: var(--secondary-color);
 }
 
+/* Home Page Styling */
 .head-of-homepage h1 {
   color: var(--primary-color);
   font-size: 200px;
@@ -59,7 +61,7 @@ footer a .social-icons {
   font-size: 30px;
 }
 
-.contact-button {
+.button-branding {
   background-color: var(--secondary-color);
   color: var(--tertiary-color);
   border: solid 5px var(--primary-color);
@@ -72,7 +74,7 @@ footer a .social-icons {
   width: 400px;
   margin: 50px auto 75px;
 }
-.contact-button:hover {
+.button-branding:hover {
   background-color: var(--primary-color);
   color: var(--background-color);
   border: solid 5px var(--secondary-color);
@@ -86,7 +88,7 @@ footer a .social-icons {
   margin: 50px auto 30px auto;
 }
 .body-of-work h2 {
-  color: var(--background-color);
+  color: var(--secondary-color);
   font-size: 40px;
 }
 .body-of-work a {
@@ -112,11 +114,55 @@ footer a .social-icons {
   font-size: 20px;
 }
 
+/* About Page Styling */
+.about-head-section {
+  background-color: var(--primary-color);
+  text-align: left;
+  padding: 50px 80px;
+}
+.about-head-section h1 {
+  font-size: 90px;
+}
+.about-head-section h2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: -10px;
+}
+.about-head-section h3 {
+  font-size: 23px;
+}
+.about-head-section .lyv-photo {
+  max-width: 400px;
+  display: block;
+  margin: 0px auto;
+}
+.about-head-section .about-head-content {
+  padding-top: 50px;
+}
+.about-head-section .button-branding {
+  width: 250px;
+  margin: 40px 0px;
+  text-align: center;
+  color: var(--background-color);
+  background-color: var(--secondary-color);
+  border-color: var(--background-color);
+}
+.about-head-section .button-branding:hover {
+  background-color: var(--primary-color);
+  border-color: var(--secondary-color);
+  color: var(--background-color);
+}
+
+/* ALL Media Styling */
+
 @media (max-width: 768px) {
   footer {
     margin-bottom: 25px;
     font-size: 10px;
   }
+
+  /* Home Page Media Styling */
   .head-of-homepage {
     padding: 0 20px;
   }
@@ -138,7 +184,7 @@ footer a .social-icons {
     font-size: 20px;
   }
 
-  .contact-button {
+  .button-branding {
     font-size: 15px;
     font-weight: 700;
     padding: 10px 20px;
@@ -167,5 +213,47 @@ footer a .social-icons {
     border: solid 1.5px var(--tertiary-color);
     font-weight: 700;
     font-size: 12px;
+  }
+
+  /* About Page Media Styling */
+  .about-head-section {
+    text-align: center;
+  }
+  .about-head-section h1 {
+    font-size: 60px;
+  }
+  .about-head-section h2 {
+    font-size: 35px;
+  }
+  .about-head-section h3 {
+    font-size: 20px;
+  }
+  .about-head-section p {
+    font-size: 15px;
+  }
+  .about-head-section .lyv-photo {
+    max-width: 300px;
+    display: block;
+    margin: 50px auto 20px auto;
+  }
+  .about-head-section .about-head-content {
+    padding: 10px 50px;
+    text-align: center;
+  }
+
+  .about-head-section .button-branding {
+    margin: 25px auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-head-section .about-head-content {
+    padding: 30px 50px;
+    text-align: center;
+  }
+  .about-head-section .button-branding {
+    margin: 25px auto;
+    text-align: center;
   }
 }
