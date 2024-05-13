@@ -85,7 +85,7 @@ footer a .social-icons {
   border: solid 5px var(--secondary-color);
   padding: 50px 50px 30px 50px;
   border-radius: 20px;
-  margin: 50px auto 30px auto;
+  margin: 50px auto 50px auto;
 }
 .body-of-work h2 {
   color: var(--secondary-color);
@@ -111,47 +111,47 @@ footer a .social-icons {
   border: solid 3px var(--background-color);
   color: var(--primary-color);
   font-weight: 700;
-  font-size: 20px;
 }
 
-/* About Page Styling */
-.about-head-section {
+/* Page Styling */
+.head-section {
   background-color: var(--primary-color);
   text-align: left;
   padding: 50px 80px;
+  margin: 50px 50px;
 }
-.about-head-section h1 {
+.head-section h1 {
   font-size: 90px;
 }
-.about-head-section h2 {
+.head-section h2 {
   font-size: 60px;
   font-weight: bold;
   color: var(--secondary-color);
   margin-bottom: -10px;
 }
-.about-head-section h3 {
+.head-section h3 {
   font-size: 23px;
 }
-.about-head-section .lyv-photo {
+.head-section .lyv-photo {
   max-width: 400px;
   display: block;
   margin: 0px auto;
 }
-.about-head-section .about-head-content {
+.head-section .head-content {
   padding-top: 50px;
 }
-.about-head-section .button-branding {
+.head-section .button-branding {
   width: 250px;
   margin: 40px 0px;
   text-align: center;
-  color: var(--background-color);
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  border-color: var(--tertiary-color);
+}
+.head-section .button-branding:hover {
   background-color: var(--secondary-color);
   border-color: var(--background-color);
-}
-.about-head-section .button-branding:hover {
-  background-color: var(--primary-color);
-  border-color: var(--secondary-color);
-  color: var(--background-color);
+  color: var(--primary-color);
 }
 
 /* ALL Media Styling */
@@ -215,44 +215,44 @@ footer a .social-icons {
     font-size: 12px;
   }
 
-  /* About Page Media Styling */
-  .about-head-section {
+  /* Page Media Styling */
+  .head-section {
     text-align: center;
   }
-  .about-head-section h1 {
+  .head-section h1 {
     font-size: 60px;
   }
-  .about-head-section h2 {
+  .head-section h2 {
     font-size: 35px;
   }
-  .about-head-section h3 {
+  .head-section h3 {
     font-size: 20px;
   }
-  .about-head-section p {
+  .head-section p {
     font-size: 15px;
   }
-  .about-head-section .lyv-photo {
+  .head-section .lyv-photo {
     max-width: 300px;
     display: block;
     margin: 50px auto 20px auto;
   }
-  .about-head-section .about-head-content {
+  .head-section .head-content {
     padding: 10px 50px;
     text-align: center;
   }
 
-  .about-head-section .button-branding {
+  .head-section .button-branding {
     margin: 25px auto;
     text-align: center;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .about-head-section .about-head-content {
+  .head-section .head-content {
     padding: 30px 50px;
     text-align: center;
   }
-  .about-head-section .button-branding {
+  .head-section .button-branding {
     margin: 25px auto;
     text-align: center;
   }
