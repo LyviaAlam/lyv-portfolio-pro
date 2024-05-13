@@ -153,6 +153,15 @@ footer a .social-icons {
   border-color: var(--background-color);
   color: var(--primary-color);
 }
+.contact-page h3 {
+  color: var(--secondary-color);
+}
+.contact-page a {
+  color: var(--background-color);
+}
+.contact-page a:hover {
+  color: var(--secondary-color);
+}
 
 /* ALL Media Styling */
 
